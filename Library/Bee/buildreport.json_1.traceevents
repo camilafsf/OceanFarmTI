@@ -1,0 +1,576 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1679952219947332, "dur": 3701392, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679952219949769, "dur": 17949, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679952219967725, "dur": 66915, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679952220034643, "dur": 1030328, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679952221064974, "dur": 2568236, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679952223633217, "dur": 15502, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679952223651843, "dur": 188, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1679952220763170, "dur": 271751, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679952220764739, "dur": 83620, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679952221008776, "dur": 7289, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679952221016070, "dur": 18827, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679952221017248, "dur": 16192, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679952221045584, "dur": 2684, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679952221042993, "dur": 5330, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679952223655070, "dur": 1262, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1679952221146389, "dur":3502, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952221149919, "dur":215, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1679952221150344, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1679952221150361, "dur":614, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1679952221151022, "dur":927, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952221151949, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577014, "dur":181, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577195, "dur":106, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577301, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577308, "dur":49, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577357, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577361, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577373, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577375, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577384, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577386, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577394, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577397, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577405, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577408, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577439, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577442, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577451, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577463, "dur":25, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223577493, "dur":3840, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1679952221152028, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221152029, "dur":7240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221159278, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1679952221159535, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221163656, "dur":12865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1679952221176595, "dur":11211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1679952221187814, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221187829, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1679952221190402, "dur":113117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1679952221303525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221303537, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1679952221305552, "dur":13737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1679952221319297, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221319313, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1679952221321243, "dur":14155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1679952221335404, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221335416, "dur":3923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1679952221339444, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1679952221339619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221340203, "dur":26362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1679952221366674, "dur":37140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221403822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221405566, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221407401, "dur":56331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221463739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221463749, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221465788, "dur":33887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221499681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221499703, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221501982, "dur":200509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221702501, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221702514, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221704796, "dur":59332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221764136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221764154, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221766510, "dur":26812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221793333, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221793347, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221795380, "dur":71443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221866830, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952221866850, "dur":39442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952221906390, "dur":147204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222053601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952222053612, "dur":48182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222101878, "dur":48092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222149977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952222149988, "dur":3886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222153963, "dur":82294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222236305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952222236320, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222239607, "dur":24689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222264301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952222264309, "dur":18525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222282914, "dur":64528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222347448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952222347458, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222349640, "dur":72771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222422418, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952222422430, "dur":30741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222453265, "dur":233064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222686339, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952222686352, "dur":4636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222691089, "dur":147209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222838305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952222838317, "dur":4151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222842559, "dur":153728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222996293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952222996302, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952222998303, "dur":288464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952223286772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952223286782, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679952223288769, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1679952223288971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679952223288979, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1679952223291072, "dur":285948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221151625, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221151986, "dur":7255, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221159278, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1679952221159284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221164366, "dur":755, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1679952221165125, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1679952221165216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221165575, "dur":10502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1679952221176080, "dur":11866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679952221187950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221187959, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679952221190436, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1679952221190884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221191020, "dur":116505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1679952221307620, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1679952221308349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221308360, "dur":34644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1679952221343110, "dur":125759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221468876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221468886, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221471186, "dur":52652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221523844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221523855, "dur":11445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221535402, "dur":57807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221593217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221593236, "dur":6174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221599499, "dur":59833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221659340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221659352, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221661871, "dur":334502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221996381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952221996393, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952221998543, "dur":55680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222054229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222054237, "dur":46592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222100921, "dur":24632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222125561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222125572, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222128114, "dur":65879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222194000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222194011, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222197735, "dur":76597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222274338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222274350, "dur":8549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222282977, "dur":109724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222392707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222392718, "dur":30877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222423675, "dur":49305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222472986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222472997, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222474987, "dur":118436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222593429, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222593441, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222596805, "dur":9264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222606075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222606086, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222608283, "dur":90327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222698616, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222698628, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222700793, "dur":255483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222956282, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952222956293, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952222958954, "dur":311406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952223270368, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952223270382, "dur":4899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679952223275390, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1679952223275483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952223275491, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1679952223278910, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679952223279001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952223279008, "dur":3645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679952223282732, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1679952223282809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679952223282816, "dur":8311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1679952223291208, "dur":285839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221151778, "dur":211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221151989, "dur":7278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221159279, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1679952221159609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221164957, "dur":140942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1679952221310120, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1679952221310609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221310619, "dur":6522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1679952221317239, "dur":68128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221386703, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221387087, "dur":8639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221395830, "dur":78338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221474175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221474215, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221477733, "dur":62125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221539867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221539877, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221542464, "dur":44854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221587326, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221587339, "dur":11294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221598720, "dur":98359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221697086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221697098, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221699217, "dur":57410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221756634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952221756683, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952221758670, "dur":431669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222190346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952222190358, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222192626, "dur":69802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222262435, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952222262447, "dur":24153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222286683, "dur":37008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222323696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952222323706, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222325938, "dur":41546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222367493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952222367508, "dur":75063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222442666, "dur":67896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222510569, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952222510580, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222513748, "dur":462019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222975773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952222975783, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952222978906, "dur":174502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952223153415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952223153425, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952223156456, "dur":416018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952223572478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679952223572485, "dur":4306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679952223576921, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1679952223576957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221151878, "dur":120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221151998, "dur":7268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221159278, "dur":143994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1679952221303278, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221303999, "dur":12819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1679952221316906, "dur":7271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221324184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221325732, "dur":4350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221330209, "dur":58968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM.exe" }}
+,{ "pid":12345, "tid":4, "ts":1679952221389185, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221389196, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM.exe" }}
+,{ "pid":12345, "tid":4, "ts":1679952221391960, "dur":55057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221447024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221447163, "dur":13310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221460592, "dur":93992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221554602, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221554613, "dur":29973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221584670, "dur":36208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221620887, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221620899, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221623333, "dur":89087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221712427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221712438, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221714776, "dur":100915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221815699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221815712, "dur":88370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221904185, "dur":89436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221993633, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952221993646, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952221997365, "dur":85767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222083138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952222083149, "dur":26975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222110201, "dur":159339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222269545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952222269553, "dur":16613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222286251, "dur":75282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222361540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952222361551, "dur":7684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222369313, "dur":45963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222415284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952222415295, "dur":36972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222452360, "dur":127988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222580388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952222580400, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222582466, "dur":66115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222648588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952222648599, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222652477, "dur":68686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222721169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952222721180, "dur":29593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222750859, "dur":214750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222965617, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952222965630, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952222968627, "dur":231960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952223200593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223200604, "dur":5259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679952223205959, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1679952223206218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223207047, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1679952223209092, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1679952223209169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223209246, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1679952223211421, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223211498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223211507, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223213352, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223213429, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223213463, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223216957, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223217028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223217049, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223219111, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223219202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223219211, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223223474, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223223570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223223578, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223225593, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223225701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223225710, "dur":4673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223230471, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223230553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223230562, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223234257, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223234355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223234363, "dur":14336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223248779, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223248855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223248863, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223250690, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223250773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223250782, "dur":4237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223255136, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223255223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223255231, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1679952223257805, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1679952223258039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223258047, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1679952223259802, "dur":1308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1679952223261116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223261125, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1679952223262957, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223263062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223263070, "dur":8262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223271479, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level5.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223271620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223271626, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level5.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223273782, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1679952223273893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223273899, "dur":4535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1679952223278519, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1679952223278669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223278679, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1679952223281592, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223281689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223281695, "dur":3547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1679952223285322, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1679952223285394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223285401, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1679952223287223, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1679952223287299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679952223287305, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1679952223288984, "dur":288055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952221152007, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952221152007, "dur":7265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952221159279, "dur":14208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1679952221173493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952221173783, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1679952221176565, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1679952221176724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952221176812, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1679952221180267, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1679952221180451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952221181853, "dur":125224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1679952221307162, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1679952221307352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952221307363, "dur":647601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1679952221955055, "dur":123586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222078648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222078660, "dur":20818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222099566, "dur":89291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222188867, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222188882, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222191050, "dur":72818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222263875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222263885, "dur":21907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222285894, "dur":57933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222343834, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222343846, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222346551, "dur":35782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222382340, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222382352, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222384451, "dur":229188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222613645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222613655, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222615905, "dur":27652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222643563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222643575, "dur":3854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222647519, "dur":1409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222648934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222648945, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222651704, "dur":64667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222716378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222716389, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222718632, "dur":201931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222920574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952222920617, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952222923386, "dur":110080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952223033473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952223033485, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952223036416, "dur":232027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952223268449, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952223268461, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679952223271318, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1679952223271403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952223271411, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1679952223273792, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679952223273872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952223273881, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679952223276873, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679952223276947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952223276955, "dur":3993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679952223281028, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1679952223281117, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952223281134, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1679952223284582, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679952223284661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952223284675, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679952223286888, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1679952223286976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679952223286983, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1679952223288960, "dur":288102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952221152119, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952221152119, "dur":7153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952221159279, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1679952221159635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952221164956, "dur":676070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1679952221841114, "dur":77431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952221918552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952221918573, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952221921165, "dur":170844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222092016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952222092059, "dur":39988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222132159, "dur":66097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222198262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952222198273, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222200568, "dur":176152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222376727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952222376738, "dur":4341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222381161, "dur":55268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222436435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952222436446, "dur":16099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222452631, "dur":136706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222589350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952222589396, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222591985, "dur":56873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222648862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952222648905, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222651737, "dur":1392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222653136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952222653148, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222655672, "dur":1132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222656810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952222656820, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952222659162, "dur":386225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952223045392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952223045403, "dur":79553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952223125056, "dur":70198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952223195260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952223195271, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952223198838, "dur":264816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952223463659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679952223463668, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679952223465694, "dur":111380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952221152152, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952221152152, "dur":7121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952221159279, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1679952221159609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952221165741, "dur":154504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1679952221320895, "dur":411458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952221732359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952221732378, "dur":152998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952221885491, "dur":198969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222084469, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222084482, "dur":17219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222101793, "dur":49702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222151502, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222151521, "dur":2569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222154183, "dur":46455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222200641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222200650, "dur":5505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222206256, "dur":62824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222269086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222269096, "dur":14467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222283738, "dur":37340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222321110, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222321127, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222323256, "dur":41190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222364480, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222364492, "dur":4755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222369323, "dur":33500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222402829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222402845, "dur":51834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222454782, "dur":204295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222659083, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222659110, "dur":29790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222689002, "dur":130995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222820003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222820014, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222822082, "dur":149968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222972056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952222972067, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952222974776, "dur":58269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952223033051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952223033090, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952223035649, "dur":164347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952223200015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952223200027, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952223202436, "dur":96094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952223298539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679952223298549, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679952223300790, "dur":276241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952221152284, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952221152284, "dur":6984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952221159279, "dur":14209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1679952221173493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952221173787, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1679952221176707, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1679952221176856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952221176864, "dur":540135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1679952221717081, "dur":235954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952221953167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952221953180, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952221956470, "dur":86882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222043357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952222043368, "dur":53326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222096795, "dur":72315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222169116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952222169126, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222171215, "dur":83975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222255198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952222256841, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222259797, "dur":35807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222295614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952222295626, "dur":25967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222321679, "dur":214697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222536382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952222536393, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222539662, "dur":26250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222565920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952222565933, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222568285, "dur":86592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222654885, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952222654897, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222657170, "dur":177073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222834249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952222834259, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222836473, "dur":120086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222956564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952222956573, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952222959655, "dur":343270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952223302932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679952223302942, "dur":4525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fsfmi/Desktop/buildTi/OCEANFARM_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679952223307581, "dur":269474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679952223584636, "dur":2823, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1679952223656699, "dur": 4887, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679952223651740, "dur": 9991, "ph": "X", "name": "Write chrome-trace events", "args": {} },
