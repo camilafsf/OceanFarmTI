@@ -11,6 +11,7 @@ public class ResourceManager : MonoBehaviour
     public Button[] construir;
     public int constAtual;
     public GameObject atual;
+    public baseBuilds build;
     
     void Awake()
     {
@@ -19,7 +20,7 @@ public class ResourceManager : MonoBehaviour
 
     private void Start()
     {
-       
+      
         for (int i = 0; i < construir.Length; i++)
         {
             int Index = i;
@@ -28,20 +29,12 @@ public class ResourceManager : MonoBehaviour
         }
   
     }
-
-
     public void ReconheceConstrucao(int indice)
     {
-        constAtual = indice;
-        atual = Builds[constAtual].prefabBuild;
-        Debug.Log("tá aqui" + indice);
-
-            Vector3 mousePosition = Input.mousePosition;
-            mousePosition.z = Camera.main.nearClipPlane;
-            Vector3 pos = Camera.main.ScreenToViewportPoint(mousePosition);
-            Instantiate(atual, pos, Quaternion.identity);
-        
+       
+        build = new madeiraBuild();
+        build.Construir(Builds[indice]);
     }
 
-
+ 
 }

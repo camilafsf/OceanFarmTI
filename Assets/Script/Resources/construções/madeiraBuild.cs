@@ -5,8 +5,13 @@ using UnityEngine.UI;
 
 public class madeiraBuild : baseBuilds
 {
-    /*public void Start()
+    public override void Construir(builDefault prefab)
     {
-      ResourceManager.RManager.atual = 
-    }*/
+        base.Construir(prefab);
+    }
+
+    public override void GastarRecursos(builDefault prefab)
+    {
+        base.GastarRecursos(prefab);
+    }
 }

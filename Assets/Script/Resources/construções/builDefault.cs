@@ -16,7 +16,7 @@ public class builDefault : ScriptableObject
     public int MadeiraGastoC;
     public int PedraGastoC;
     public int ManaGastoC;
-    public int PessoaGasto;
+    public int PessoaGastoC;
 
     [Header("--Recursos gerados ao longo do tempo--")]
     public int Madeira;

@@ -15,10 +15,11 @@ MonoBehaviour:
   Image: {fileID: 21300000, guid: 44be91c07bdbf854e8381119ce32cc20, type: 3}
   prefabBuild: {fileID: 6870096747170817055, guid: 9081a1521da215445a818e5727d45ed1, type: 3}
   tempo: 7
+  teste: testando0
   MadeiraGastoC: 10
   PedraGastoC: 15
-  ManaGastoC: 20
-  PessoaGasto: 5
+  ManaGastoC: 0
+  PessoaGastoC: 0
   Madeira: 10
   Pedra: 0
   mana: 0
