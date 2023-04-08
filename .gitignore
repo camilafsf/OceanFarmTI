@@ -21,3 +21,7 @@ obj/Debug/UnityEngine.TestRunner.csproj.AssemblyReference.cache
 obj/Debug/Assembly-CSharp.Player.csproj.AssemblyReference.cache
 obj/Debug/Unity.Services.Core.Environments.Internal.csproj.AssemblyReference.cache
 obj/Debug/Unity.TextMeshPro.Player.csproj.AssemblyReference.cache
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/AssetImportWorker4.log
+Logs/AssetImportWorker5.log
+Assets/Scenes/Game.unity
