@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class InterfaceManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+   
     public Text anim,agro,pop,mana,rock,wood;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         anim.text = ResourceManager.RManager.Animal.ToString();
@@ -23,3 +23,4 @@ public class InterfaceManager : MonoBehaviour
         wood.text = ResourceManager.RManager.Madeira.ToString();
     }
 }
+

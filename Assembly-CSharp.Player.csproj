@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\Sound\SoundPlaylist.cs" />
     <Compile Include="Assets\Script\MiniGame\Timminggame.cs" />
     <Compile Include="Assets\Scripts\UI\SubHudActiveandDesactive.cs" />
+    <Compile Include="Assets\Script\Resources\construções\recursosTempo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

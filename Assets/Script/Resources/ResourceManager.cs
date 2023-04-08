@@ -34,6 +34,11 @@ public class ResourceManager : MonoBehaviour
        
         build = new madeiraBuild();
         build.Construir(Builds[indice]);
+        
+        //build.StartCoroutine(GastaeGeraRecursos(Builds[indice].tempo, indice));
+       // Builds[indice].prefabBuild.AddComponent<recursosTempo>().Start(Builds[indice]);
+        
+
     }
 
  

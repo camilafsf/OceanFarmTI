@@ -47,7 +47,7 @@ public abstract class baseBuilds : MonoBehaviour
         int pessoas = prefab.PessoasGastas;
         int marvita = prefab.marvitaGastas;
         int vegetal = prefab.vegetalGastos;
-        int animal = prefab.animal;
+        int animal = prefab.animalGastos;
         float tempo = prefab.tempo;
         ResourceManager.RManager.Madeira -= madeira;
         ResourceManager.RManager.Pedra -= pedra;
@@ -58,8 +58,16 @@ public abstract class baseBuilds : MonoBehaviour
     }
 
 
-    public virtual void GerarRecursos(int madeira, int pedra, int pessoas, int marvita, int vegetal, int animal, float tempo)
+    public virtual void GerarRecursos(builDefault prefab)
     {
+
+        int madeira = prefab.Madeira;
+        int pedra = prefab.Pedra;
+        int pessoas = prefab.Pessoas;
+        int marvita = prefab.marvita;
+        int vegetal = prefab.vegetal;
+        int animal = prefab.animal;
+        float tempo = prefab.tempo;
         ResourceManager.RManager.Madeira += madeira;
         ResourceManager.RManager.Pedra += pedra;
         ResourceManager.RManager.Pessoas += pessoas;
