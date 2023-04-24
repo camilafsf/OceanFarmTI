@@ -19,7 +19,7 @@ MonoBehaviour:
   MadeiraGastoC: 10
   PedraGastoC: 50
   ManaGastoC: 50
-  PessoaGastoC: 0
+  PessoaGastoC: 10
   Madeira: 0
   Pedra: 20
   mana: 0
@@ -27,6 +27,7 @@ MonoBehaviour:
   marvita: 0
   vegetal: 0
   animal: 0
+  PodeGerar: 0
   MadeiraGasta: 0
   PedraGasta: 0
   ManaGasto: 0

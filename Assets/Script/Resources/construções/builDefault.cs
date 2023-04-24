@@ -17,6 +17,8 @@ public class builDefault : ScriptableObject
     public int PedraGastoC;
     public int ManaGastoC;
     public int PessoaGastoC;
+    public bool EstaConstruindo;
+    public bool Posicionado;
 
     [Header("--Recursos gerados ao longo do tempo--")]
     public int Madeira;
@@ -26,6 +28,7 @@ public class builDefault : ScriptableObject
     public int marvita;
     public int vegetal;
     public int animal;
+    public bool PodeGerar;
 
     [Header("--Recursos gastos ao longo do tempo--")]
     public int MadeiraGasta;

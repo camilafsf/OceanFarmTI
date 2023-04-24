@@ -12,7 +12,8 @@ public class ResourceManager : MonoBehaviour
     public int constAtual;
     public GameObject atual;
     public baseBuilds build;
-    
+    public bool construindo;
+    public Vector3 mousePosition;
     void Awake()
     {
         RManager = this;
@@ -28,18 +29,27 @@ public class ResourceManager : MonoBehaviour
             construir[i].image.sprite = Builds[i].Image;
         }
   
-    }
+    } 
     public void ReconheceConstrucao(int indice)
     {
-       
+        atual = Builds[indice].prefabBuild;
         build = new madeiraBuild();
         build.Construir(Builds[indice]);
-        
-        //build.StartCoroutine(GastaeGeraRecursos(Builds[indice].tempo, indice));
-       // Builds[indice].prefabBuild.AddComponent<recursosTempo>().Start(Builds[indice]);
-        
-
+        build.RecebeParametros(Builds[indice].tempo, indice);
+        RManager.construindo = true;
     }
 
- 
+    public void Contruindo(GameObject prefab)
+    {
+        if (RManager.construindo == true)
+        {
+            grid.Grid.Contruir(atual);
+            RManager.construindo = false;
+        }
+    }
+    private void Update()
+    {
+        RManager.Contruindo(atual);
+     
+    }
 }
