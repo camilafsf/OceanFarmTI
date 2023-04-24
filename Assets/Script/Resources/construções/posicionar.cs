@@ -97,7 +97,10 @@ public class posicionar : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireCube(obj.transform.position, getRotationScale(obj.transform));
+        if (obj != null)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireCube(obj.transform.position, getRotationScale(obj.transform));
+        }
     }
 }

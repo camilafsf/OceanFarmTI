@@ -32,7 +32,7 @@ public class grid : MonoBehaviour
     {
         if (ResourceManager.RManager.construindo == true)
         {
-
+           
             prefab = Instantiate(ResourceManager.RManager.atual);  
             ResourceManager.RManager.mousePosition = grid.Grid.GetSelectMapPosition();
             ResourceManager.RManager.construindo = false;
@@ -52,8 +52,12 @@ public class grid : MonoBehaviour
     }
     private void Update()
     {
-        Vector3 mousePosition = GetSelectMapPosition();
-        prefab.transform.position = mousePosition;
+        if (prefab != null)
+        {
+            Vector3 mousePosition = GetSelectMapPosition();
+            prefab.transform.position = mousePosition;
+        }
+
       /*  Vector3 mousePos = Input.mousePosition;
         mousePos.z = SceneCamera.nearClipPlane;
         prefab.transform.position = mousePos;

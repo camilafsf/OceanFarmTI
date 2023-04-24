@@ -37,19 +37,24 @@ public class ResourceManager : MonoBehaviour
         build.Construir(Builds[indice]);
         build.RecebeParametros(Builds[indice].tempo, indice);
         RManager.construindo = true;
+       
     }
 
-    public void Contruindo(GameObject prefab)
+    /*public void Contruindo(GameObject prefab)
     {
         if (RManager.construindo == true)
         {
             grid.Grid.Contruir(atual);
             RManager.construindo = false;
         }
-    }
+    }*/
     private void Update()
     {
-        RManager.Contruindo(atual);
+       /* if(atual!= null)
+        {
+            RManager.Contruindo(atual);
+        }*/
+
      
     }
 }

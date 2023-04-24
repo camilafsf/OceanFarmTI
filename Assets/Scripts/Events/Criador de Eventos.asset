@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d4c4bb9cbfa004c890084a43fe887b, type: 3}
+  m_Name: Criador de Eventos
+  m_EditorClassIdentifier: 
+  Eventos:
+  - NomeDoEvento: Tutorial
+    nome:
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    TextoDeCorpo:
+    - "Ol\xE1! Bem vindo ao OCEAN FARM, sou Poseidon, sim aquele mesmo o deus, enfim
+      novo administrador vou ter ensinar o b\xE1sico que voc\xEA precisa saber, clique
+      em \"Continuar\"."
+    - "Primeiro me deixa te introduzir ao seu trabalho, como sabe Atl\xE2ntida est\xE1
+      passando por... bem alguns probleminhas que totalmente n\xE3o s\xE3o por minha
+      culpa, tipo n\xE3o mesmo."
+    - "De qualquer forma voc\xEA tem a ilustre oportunidade (e obriga\xE7\xE3o) de
+      criar uma col\xF4nia com intuito de prover a necessidades crescentes do nosso
+      povo."
+    - "Enfim bl\xE1 bl\xE1 administrativo a parte vamos a pr\xE1tica, todo fim de
+      ano vou cobrar comida vegetal e animal de voc\xEA para meus banque... digo
+      para o povo, eu at\xE9 posso te dar uma colher de ch\xE1 uma vez mas se passar
+      de duas vezes sem voc\xEA me entregar..."
+    - "Bem digamos que o meu querido Krakenzinho vai ter uma refei\xE7\xE3o de gal\xE3,
+      enfim o seu prazo pode ser visto pela barra inferior, quando vazia \xE9 hora
+      da entrega!"
+    - "Voc\xEA tamb\xE9m tem no seu quanto superior direito a tabela de objetivos,
+      n\xE3o s\xE3o obrigat\xF3rios, mas voc\xEA recebe mais renome ao cumprir eles."
+    - "No quanto superior esquerdo tem essa tabela com simbolos estranhos e n\xFAmeros,
+      ali voc\xEA pode gerenciar tanto seus alimentos deliciosos quanto outros recursos
+      que s\xE3o importantes para produzir meus pesticos."
+    - "Por fim t\xE1 vendo esses bot\xF5es ai no lado esquerdo da tela, voc\xEA pode
+      usar eles para construir, afinal nada cresce do nada."
+    - "Hum... acho que \xE9 tudo que voc\xEA precisa saber, pelo menos no meu roteiro
+      aqui n\xE3o tem mais nada, bom se tivesse algo para falar Selena teria escrito,
+      ent\xE3o boa sorte e se vira meu chegado!"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 184837756c5ce444f827c0bae3285575, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 63a0f0f3bc974e9458d8503a6454b89a, type: 3}
+    - {fileID: 21300000, guid: ef3305b64396ca64faf9faa5f68443ae, type: 3}
+    - {fileID: 21300000, guid: 50f47fee7dd16c44abccaabb7bda81c3, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
+    TextoEscolha2: 
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 3
+    mes: 1
+    ano: 1221
+    Repete: 0
+    Aleatorio: 0
+  - NomeDoEvento: A ilha de lixo
+    nome:
+    - 
+    TextoDeCorpo:
+    - "Uma ilha de lixo humano foi vista flutuando at\xE9 n\xF3s, de acordo com nossos
+      cientistas ela deve chegar em poucos dias devemos tomar uma a\xE7\xE3o por
+      favor escolha"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 24284fe1f4e44694fae4e1012edbe162, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: "Mande cidad\xE3os para coletar o lixo"
+    "Descri\xE7\xE3oEscolha1": Precisaremos usar nossos POPs para resolver esse problema
+      de forma eficaz (gasta 2 de POP)
+    EfeitoBotao2: 
+    TextoEscolha2: Deixe acontecer
+    "Descri\xE7\xE3oEscolha2": "Quem somos n\xF3s para ficarmos contra a imprevisibilidade
+      do destino? que o curso natural seja feito (Efeito negativo em todas as produ\xE7\xF5es)"
+    dia: 15
+    mes: 1
+    ano: 1221
+    Repete: 1
+    Aleatorio: 0
+  - NomeDoEvento: Evento Teste
+    nome:
+    - 
+    TextoDeCorpo:
+    - "Uma ilha de lixo humano foi vista flutuando at\xE9 n\xF3s, de acordo com nossos
+      cientistas ela deve chegar em poucos dias devemos tomar uma a\xE7\xE3o por
+      favor escolha"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 24284fe1f4e44694fae4e1012edbe162, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: "Mande cidad\xE3os para coletar o lixo"
+    "Descri\xE7\xE3oEscolha1": Precisaremos usar nossos POPs para resolver esse problema
+      de forma eficaz (gasta 2 de POP)
+    EfeitoBotao2: 
+    TextoEscolha2: Deixe acontecer
+    "Descri\xE7\xE3oEscolha2": "Quem somos n\xF3s para ficarmos contra a imprevisibilidade
+      do destino? que o curso natural seja feito (Efeito negativo em todas as produ\xE7\xF5es)"
+    dia: 1
+    mes: 1
+    ano: 1221
+    Repete: 0
+    Aleatorio: 1
