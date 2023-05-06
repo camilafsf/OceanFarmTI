@@ -72,9 +72,8 @@ public class EventManager : MonoBehaviour
             {
                 return;
             }
-           
-            Calendar.date.Paused = true;
-            TImer.Timer.stop = true;
+     
+            Pause.pause.Paused();
             Quadro.SetActive(true);
             if (eventoAtual.ImagemCentral != null && index < eventoAtual.ImagemCentral.Length)
             {
@@ -124,7 +123,7 @@ public class EventManager : MonoBehaviour
             index++;
             
         }
-        Debug.Log("Novo índice: " + index);
+        
     }
 
     public void Fechar()
@@ -134,17 +133,13 @@ public class EventManager : MonoBehaviour
         {
             eventoAtual.ano++;
         }
-        TImer.Timer.stop = false;
-        Calendar.date.Paused = false;
-        Calendar.date.day++; 
+        Pause.pause.UnPaused();
         Quadro.SetActive(false);
 
     }
     void Fechar2()
     {
-        TImer.Timer.stop = false;
-        Calendar.date.Paused = false;
-        Calendar.date.day++;
+        Pause.pause.UnPaused();
         Quadro.SetActive(false);
     }
 

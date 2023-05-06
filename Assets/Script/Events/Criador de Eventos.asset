@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Criador de Eventos
   m_EditorClassIdentifier: 
   Eventos:
-  - NomeDoEvento: Tutorial
+  - NomeDoEvento: Boas Vindas
     nome:
     - Poseidon
     - Poseidon
