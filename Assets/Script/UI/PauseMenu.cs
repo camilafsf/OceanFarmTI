@@ -5,6 +5,7 @@ public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenuUI;
     [SerializeField] private Button pauseButton;
+    [SerializeField] private Button Resume;
 
     private bool isPaused = false;
 
@@ -15,15 +16,15 @@ public class PauseMenu : MonoBehaviour
 
         // Adicionar um listener ao botão de "pausa/despausa"
         pauseButton.onClick.AddListener(TogglePause);
+        Resume.onClick.AddListener(TogglePause);
     }
 
     private void TogglePause()
     {
         if (isPaused)
         {
-            // Despausar o tempo do jogo
-            Time.timeScale = 1f;
 
+            Pause.pause.UnPaused();
             // Esconder o menu de pausa
             pauseMenuUI.SetActive(false);
 
@@ -33,7 +34,7 @@ public class PauseMenu : MonoBehaviour
         else
         {
             // Pausar o tempo do jogo
-            Time.timeScale = 0f;
+            Pause.pause.Paused();
 
             // Mostrar o menu de pausa
             pauseMenuUI.SetActive(true);

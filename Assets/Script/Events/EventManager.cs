@@ -135,12 +135,30 @@ public class EventManager : MonoBehaviour
         }
         Pause.pause.UnPaused();
         Quadro.SetActive(false);
+        
 
     }
-    void Fechar2()
+    public void Fechar2()
     {
+        eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
+        if (eventoAtual.Repete == true)
+        {
+            eventoAtual.ano++;
+        }
         Pause.pause.UnPaused();
         Quadro.SetActive(false);
+        SendMessage("Efeito", eventoAtual.EfeitoBotao1);
+    }
+    public void Fechar3()
+    {
+        eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
+        if (eventoAtual.Repete == true)
+        {
+            eventoAtual.ano++;
+        }
+        Pause.pause.UnPaused();
+        Quadro.SetActive(false);
+        SendMessage("Efeito", eventoAtual.EfeitoBotao2);
     }
 
 }

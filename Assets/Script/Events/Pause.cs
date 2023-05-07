@@ -14,7 +14,7 @@ public class Pause : MonoBehaviour
     }
     public void Paused()
     {
-        resourcePause= true;
+        resourcePause= false;
         foreach( var b in bts)
         {
             b.interactable = false;
@@ -26,7 +26,7 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     public void UnPaused()
     {
-        resourcePause = false;
+        resourcePause = true;
         foreach (var b in bts)
         {
             b.interactable = true;

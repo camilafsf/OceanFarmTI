@@ -104,9 +104,11 @@ public abstract class baseBuilds : MonoBehaviour
 
         while (true)
         {
-            GastarRecursos(ResourceManager.RManager.Builds[indice]);
-            GerarRecursos(ResourceManager.RManager.Builds[indice]);
-            yield return new WaitForSeconds(tempo);
+            if (Pause.pause.resourcePause) {
+                GastarRecursos(ResourceManager.RManager.Builds[indice]);
+                GerarRecursos(ResourceManager.RManager.Builds[indice]);
+                yield return new WaitForSeconds(tempo);
+            }
         }
     }
 

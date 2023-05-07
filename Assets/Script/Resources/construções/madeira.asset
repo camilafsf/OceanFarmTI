@@ -20,6 +20,8 @@ MonoBehaviour:
   PedraGastoC: 15
   ManaGastoC: 10
   PessoaGastoC: 10
+  EstaConstruindo: 0
+  Posicionado: 0
   Madeira: 10
   Pedra: 0
   mana: 0
@@ -32,6 +34,6 @@ MonoBehaviour:
   PedraGasta: 0
   ManaGasto: 0
   PessoasGastas: 0
-  marvitaGastas: 5
+  marvitaGastas: 0
   vegetalGastos: 0
   animalGastos: 0

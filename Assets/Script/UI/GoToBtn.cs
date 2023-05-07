@@ -7,7 +7,7 @@ public class GoToBtn : MonoBehaviour
 {
     [SerializeField]private string scn;
     [SerializeField]private GameObject Fade;
-    [SerializeField] private int timer;
+    [SerializeField] private int timer =1;
     public void Goto()
     {
         StartCoroutine(gotoafter());

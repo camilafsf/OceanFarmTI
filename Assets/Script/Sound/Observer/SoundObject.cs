@@ -25,7 +25,7 @@ public class SoundObject : MonoBehaviour, IAudioObserver
     }
     private void Update()
     {
-        print(isMuted);
+       
     }
 
     private void OnDestroy()

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SoundPlaylist : MonoBehaviour
 {
+    private static SoundPlaylist instance;
+    public static SoundPlaylist Instance { get { return instance; } }
     public bool playing;
     //Fonte de audio
     public AudioSource source;
@@ -12,6 +14,12 @@ public class SoundPlaylist : MonoBehaviour
     public AudioClip[] musicclips;
     private void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+        instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
     void Start()
