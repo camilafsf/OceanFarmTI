@@ -58,7 +58,7 @@ public class SpawnObj : MonoBehaviour
                 pendingObj.transform.position = pos;
             }
 
-            if (Input.GetMouseButtonDown(0) && activeplace == false)
+            if (Input.GetMouseButtonDown(0) && Pause.pause.resourcePause == true)
             {
 
                 PlaceObject();

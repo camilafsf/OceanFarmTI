@@ -74,7 +74,7 @@ public class Calendar : MonoBehaviour
         if (Paused == false)
         {
             year += 1;
-            AnualEntrega.anual.decisão();
+            //AnualEntrega.anual.decisão();
         }
     }
 }

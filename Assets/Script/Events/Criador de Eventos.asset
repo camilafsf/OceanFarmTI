@@ -95,9 +95,9 @@ MonoBehaviour:
     TextoEscolha2: Deixe acontecer
     "Descri\xE7\xE3oEscolha2": "Quem somos n\xF3s para ficarmos contra a imprevisibilidade
       do destino? que o curso natural seja feito (Efeito negativo em todas as produ\xE7\xF5es)"
-    dia: 15
-    mes: 1
-    ano: 1221
+    dia: 17
+    mes: 6
+    ano: 1345
     Repete: 0
     Aleatorio: 1
   - NomeDoEvento: Celena o recebe
@@ -198,8 +198,8 @@ MonoBehaviour:
     TextoEscolha2: 
     "Descri\xE7\xE3oEscolha2": "estou emocionado mas como governante n\xE3o devo
       aceitar! (Sem efeitos)"
-    dia: 21
-    mes: 12
+    dia: 10
+    mes: 1
     ano: 1221
     Repete: 1
     Aleatorio: 0
@@ -213,18 +213,116 @@ MonoBehaviour:
     ImagemCentral:
     - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
     ImagemDeCorpo:
-    - {fileID: 21300000, guid: f7cdb49612c221341977d90ae7b406c7, type: 3}
-    BotaoContinuar: 0
+    - {fileID: 21300000, guid: f0d5d0742dc17474dbdc63465f136395, type: 3}
+    BotaoContinuar: 1
     EfeitoBotao1: 
-    TextoEscolha1: Aceitar presente
-    "Descri\xE7\xE3oEscolha1": que grande noticia, fico feliz de ser agraciado assim
-      (Efeito desconhecido)
-    EfeitoBotao2: Negar presente
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
     TextoEscolha2: 
-    "Descri\xE7\xE3oEscolha2": "estou emocionado mas como governante n\xE3o devo
-      aceitar! (Sem efeitos)"
-    dia: 21
-    mes: 12
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 6
+    mes: 6
     ano: 1221
     Repete: 1
     Aleatorio: 0
+  - NomeDoEvento: Submarinos ao ataque
+    nome: []
+    TextoDeCorpo:
+    - "Meu Lorde algumas m\xE1quinas de metal estranhas foram vistas ao redor de
+      nossa col\xF4nia, parece que dento delas tem habitantes da superf\xEDcie e
+      gra\xE7as a nossa magia de camuflagem n\xE3o fomo notados ainda, mas \xE9 quest\xE3o
+      de tempo o que devemos fazer?"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: cb0c1b8ad1087b349aad2e4f3e3a890e, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: "Re\xFAna as tropas e destrua as maquinas"
+    "Descri\xE7\xE3oEscolha1": "Ao fazer isso poderemos perder alguns homens mas
+      com certeza conseguiremos manter Atl\xE2ntida segura (Efeito negativo nos POPs)"
+    EfeitoBotao2: 
+    TextoEscolha2: Chame os magos e reforce nossa camuflagem
+    "Descri\xE7\xE3oEscolha2": "isso tomar\xE1 mais tempo sendo mais arriscado mas
+      \xE9 a \xFAnica solu\xE7\xE3o pacifica (Efeito desconhecido)"
+    dia: 25
+    mes: 3
+    ano: 1250
+    Repete: 0
+    Aleatorio: 1
+  - NomeDoEvento: 'Crises do corais '
+    nome: []
+    TextoDeCorpo:
+    - "Poseidon que n\xF3s proteja! uma crise enorme, horr\xEDvel, tenebrosa. Corais!
+      sim meu bom Senhor algum idiota esqueceu de remover os corais ao redor de nossa
+      col\xF4nia, essa \xE9 uma crise sem igual antes! Porque est\xE3o destruindo
+      nossa bel\xEDssima paisagem!"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 0fddbc67415eac94dacdeb6d56a3427b, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: Pera, que?
+    "Descri\xE7\xE3oEscolha1": "Essa n\xE3o \xE9 uma situa\xE7\xE3o s\xE9ria (Efeito
+      desconhecido)"
+    EfeitoBotao2: 
+    TextoEscolha2: "Temos que agir! r\xE1pido!"
+    "Descri\xE7\xE3oEscolha2": Urgente, mobilizem homens e removam essa pragas! (Gasta
+      1 de POP)
+    dia: 2
+    mes: 3
+    ano: 1664
+    Repete: 0
+    Aleatorio: 1
+  - NomeDoEvento: 'Muambas e Tranqueiras '
+    nome:
+    - Dafne
+    TextoDeCorpo:
+    - "HA HA HA, A grande Dafne, a s\xE1bia entre as sabias acaba de chegar com uma
+      gigante variedade de produtos de alt\xEDssima qualidade que apenas aqueles
+      com sabedoria semelhantes conseguem apreciar, deseja ter a honra de me permitir
+      vender aqui? (por favorzinho)"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 73c0023eabd0036458d4b52aad0ae9d4, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: Venda
+    "Descri\xE7\xE3oEscolha1": "Se algu\xE9m quiser comprar esses trecos que compre"
+    EfeitoBotao2: 
+    TextoEscolha2: "N\xE3o Venda"
+    "Descri\xE7\xE3oEscolha2": "Voc\xEA tem alguma licen\xE7a?"
+    dia: 8
+    mes: 4
+    ano: 1823
+    Repete: 0
+    Aleatorio: 1
+  - NomeDoEvento: Golfinhos vira latas
+    nome:
+    - Dafne
+    TextoDeCorpo:
+    - "Lorde! estamos com problemas! por Poseidon golfinhos meu Lorde, golfinhos
+      vira latas est\xE3o revirando o lixo de nossos residentes e espalhando por
+      a\xED, tem no\xE7\xE3o do qu\xE3o ruim e andar distra\xEDdo e de boca aberta
+      \xE9 de repente uma embalagem de KroskNock do lixo cair na sua boca? "
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 1fe8cd438693bb948b8bbf6674e319dc, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: "Feche a boca ent\xE3o"
+    "Descri\xE7\xE3oEscolha1": "Eu sou um administrador n\xE3o um domador de vira
+      latas (Risco de perda de colheita devido ao lixo espalhado)"
+    EfeitoBotao2: 
+    TextoEscolha2: Resolverei isso
+    "Descri\xE7\xE3oEscolha2": Devo mandar algumas equipes para resgatar e treinar
+      os golfinhos (Gasta POPs e Efeito desconhecido
+    dia: 25
+    mes: 9
+    ano: 1712
+    Repete: 0
+    Aleatorio: 1

@@ -29,9 +29,9 @@ public class TImer : MonoBehaviour
             timeleft -= Time.deltaTime;
             timer.fillAmount = timeleft / maxtime;
         }
-        if (timeleft == 0)
+        else if (timeleft <= 0)
         {
-            timeleft = maxtime;
+            timeleft = 365f;
         }
 
     }

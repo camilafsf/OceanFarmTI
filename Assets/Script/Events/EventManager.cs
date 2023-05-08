@@ -58,11 +58,16 @@ public class EventManager : MonoBehaviour
 
     void Update()
     {
-        eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
-       
+        evento();
+        eventoRepete();
+    }
+    void evento()
+    {
+        eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year && e.Repete == false);
+
         if (eventoAtual != null)
         {
-           
+
             if (eventoAtual != eventoAnterior)
             {
                 index = 0;
@@ -72,7 +77,7 @@ public class EventManager : MonoBehaviour
             {
                 return;
             }
-     
+
             Pause.pause.Paused();
             Quadro.SetActive(true);
             if (eventoAtual.ImagemCentral != null && index < eventoAtual.ImagemCentral.Length)
@@ -94,7 +99,7 @@ public class EventManager : MonoBehaviour
 
             TextoNomeOrador.text = eventoAtual.nome[index];
             TextoEvento.text = eventoAtual.TextoDeCorpo[index];
-            
+
 
             if (!eventoAtual.BotaoContinuar)
             {
@@ -108,11 +113,66 @@ public class EventManager : MonoBehaviour
                 BotaoEscolha2.gameObject.SetActive(false);
                 BotaoContinuar.gameObject.SetActive(true);
             }
-            
-           
+
+
         }
     }
+    void eventoRepete()
+    {
+        eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.Repete == true);
 
+        if (eventoAtual != null)
+        {
+
+            if (eventoAtual != eventoAnterior)
+            {
+                index = 0;
+                eventoAnterior = eventoAtual;
+            }
+            if (index > eventoAtual.TextoDeCorpo.Length || index >= eventoAtual.nome.Length)
+            {
+                return;
+            }
+
+            Pause.pause.Paused();
+            Quadro.SetActive(true);
+            if (eventoAtual.ImagemCentral != null && index < eventoAtual.ImagemCentral.Length)
+            {
+                ImagemOrador.sprite = eventoAtual.ImagemCentral[index];
+            }
+            if (eventoAtual.ImagemDeCorpo != null && index < eventoAtual.ImagemDeCorpo.Length)
+            {
+                ImagemDeCorpo.sprite = eventoAtual.ImagemDeCorpo[index];
+            }
+            if (eventoAtual.EfeitoBotao1 != null && eventoAtual.EfeitoBotao2 != null)
+            {
+                bt1Texto.text = eventoAtual.TextoEscolha1;
+                bt2Texto.text = eventoAtual.TextoEscolha2;
+                bt1Descrição.text = eventoAtual.DescriçãoEscolha1;
+                bt2Descrição.text = eventoAtual.DescriçãoEscolha2;
+            }
+
+
+            TextoNomeOrador.text = eventoAtual.nome[index];
+            TextoEvento.text = eventoAtual.TextoDeCorpo[index];
+
+
+            if (!eventoAtual.BotaoContinuar)
+            {
+                BotaoEscolha1.gameObject.SetActive(true);
+                BotaoEscolha2.gameObject.SetActive(true);
+                BotaoContinuar.gameObject.SetActive(false);
+            }
+            else
+            {
+                BotaoEscolha1.gameObject.SetActive(false);
+                BotaoEscolha2.gameObject.SetActive(false);
+                BotaoContinuar.gameObject.SetActive(true);
+            }
+
+
+        }
+    }
     void ProximaMensagem()
     {
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
@@ -129,10 +189,6 @@ public class EventManager : MonoBehaviour
     public void Fechar()
     {
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
-        if (eventoAtual.Repete == true)
-        {
-            eventoAtual.ano++;
-        }
         Pause.pause.UnPaused();
         Quadro.SetActive(false);
         
@@ -141,10 +197,7 @@ public class EventManager : MonoBehaviour
     public void Fechar2()
     {
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
-        if (eventoAtual.Repete == true)
-        {
-            eventoAtual.ano++;
-        }
+ 
         Pause.pause.UnPaused();
         Quadro.SetActive(false);
         SendMessage("Efeito", eventoAtual.EfeitoBotao1);
@@ -152,10 +205,7 @@ public class EventManager : MonoBehaviour
     public void Fechar3()
     {
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
-        if (eventoAtual.Repete == true)
-        {
-            eventoAtual.ano++;
-        }
+
         Pause.pause.UnPaused();
         Quadro.SetActive(false);
         SendMessage("Efeito", eventoAtual.EfeitoBotao2);
