@@ -3,11 +3,12 @@ using UnityEngine.EventSystems;
 
 public class UIHoverDetector : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+
     public GameObject externalUIObject;
     public float hoverTimeThreshold = 0.5f; // tempo em segundos
 
     private float hoverTime = 0.0f;
-    private bool isHovering = false;
+    public  bool isHovering = false;
 
     private void Start()
     {
@@ -25,6 +26,10 @@ public class UIHoverDetector : MonoBehaviour, IPointerEnterHandler, IPointerExit
                 externalUIObject.SetActive(true); // exibe o objeto externo
             }
         }
+    }
+    public void onclick()
+    {
+        isHovering = false;
     }
 
     public void OnPointerEnter(PointerEventData eventData)

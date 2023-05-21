@@ -95,11 +95,11 @@ MonoBehaviour:
     TextoEscolha2: Deixe acontecer
     "Descri\xE7\xE3oEscolha2": "Quem somos n\xF3s para ficarmos contra a imprevisibilidade
       do destino? que o curso natural seja feito (Efeito negativo em todas as produ\xE7\xF5es)"
-    dia: 17
-    mes: 6
-    ano: 1345
+    dia: 5
+    mes: 1
+    ano: 1221
     Repete: 0
-    Aleatorio: 1
+    Aleatorio: 0
   - NomeDoEvento: Celena o recebe
     nome:
     - Celena
@@ -141,7 +141,7 @@ MonoBehaviour:
     EfeitoBotao2: 
     TextoEscolha2: 
     "Descri\xE7\xE3oEscolha2": 
-    dia: 4
+    dia: 9
     mes: 1
     ano: 1221
     Repete: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
     EfeitoBotao2: 
     TextoEscolha2: 
     "Descri\xE7\xE3oEscolha2": 
-    dia: 5
+    dia: 20
     mes: 1
     ano: 1221
     Repete: 0
@@ -194,12 +194,12 @@ MonoBehaviour:
     TextoEscolha1: Aceitar presente
     "Descri\xE7\xE3oEscolha1": que grande noticia, fico feliz de ser agraciado assim
       (Efeito desconhecido)
-    EfeitoBotao2: Negar presente
-    TextoEscolha2: 
+    EfeitoBotao2: 
+    TextoEscolha2: Negar presente
     "Descri\xE7\xE3oEscolha2": "estou emocionado mas como governante n\xE3o devo
       aceitar! (Sem efeitos)"
-    dia: 10
-    mes: 1
+    dia: 21
+    mes: 12
     ano: 1221
     Repete: 1
     Aleatorio: 0
@@ -246,9 +246,9 @@ MonoBehaviour:
     TextoEscolha2: Chame os magos e reforce nossa camuflagem
     "Descri\xE7\xE3oEscolha2": "isso tomar\xE1 mais tempo sendo mais arriscado mas
       \xE9 a \xFAnica solu\xE7\xE3o pacifica (Efeito desconhecido)"
-    dia: 25
-    mes: 3
-    ano: 1250
+    dia: 21
+    mes: 1
+    ano: 1309
     Repete: 0
     Aleatorio: 1
   - NomeDoEvento: 'Crises do corais '
@@ -271,9 +271,9 @@ MonoBehaviour:
     TextoEscolha2: "Temos que agir! r\xE1pido!"
     "Descri\xE7\xE3oEscolha2": Urgente, mobilizem homens e removam essa pragas! (Gasta
       1 de POP)
-    dia: 2
-    mes: 3
-    ano: 1664
+    dia: 8
+    mes: 2
+    ano: 1460
     Repete: 0
     Aleatorio: 1
   - NomeDoEvento: 'Muambas e Tranqueiras '
@@ -295,9 +295,9 @@ MonoBehaviour:
     EfeitoBotao2: 
     TextoEscolha2: "N\xE3o Venda"
     "Descri\xE7\xE3oEscolha2": "Voc\xEA tem alguma licen\xE7a?"
-    dia: 8
+    dia: 27
     mes: 4
-    ano: 1823
+    ano: 1308
     Repete: 0
     Aleatorio: 1
   - NomeDoEvento: Golfinhos vira latas
@@ -321,8 +321,8 @@ MonoBehaviour:
     TextoEscolha2: Resolverei isso
     "Descri\xE7\xE3oEscolha2": Devo mandar algumas equipes para resgatar e treinar
       os golfinhos (Gasta POPs e Efeito desconhecido
-    dia: 25
-    mes: 9
-    ano: 1712
+    dia: 4
+    mes: 8
+    ano: 1550
     Repete: 0
     Aleatorio: 1

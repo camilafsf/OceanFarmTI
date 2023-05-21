@@ -63,11 +63,12 @@ public class EventManager : MonoBehaviour
     }
     void evento()
     {
+        
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year && e.Repete == false);
-
+        
         if (eventoAtual != null)
         {
-
+            
             if (eventoAtual != eventoAnterior)
             {
                 index = 0;
@@ -106,12 +107,17 @@ public class EventManager : MonoBehaviour
                 BotaoEscolha1.gameObject.SetActive(true);
                 BotaoEscolha2.gameObject.SetActive(true);
                 BotaoContinuar.gameObject.SetActive(false);
+                BotaoFechar.gameObject.SetActive(false);
+      
             }
             else
             {
                 BotaoEscolha1.gameObject.SetActive(false);
                 BotaoEscolha2.gameObject.SetActive(false);
                 BotaoContinuar.gameObject.SetActive(true);
+                BotaoFechar.gameObject.SetActive(true);
+                Bt1Descriaçãopanel.SetActive(false);
+                Bt2Descriaçãopanel.SetActive(false);
             }
 
 
@@ -119,11 +125,12 @@ public class EventManager : MonoBehaviour
     }
     void eventoRepete()
     {
+        
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.Repete == true);
 
         if (eventoAtual != null)
         {
-
+            
             if (eventoAtual != eventoAnterior)
             {
                 index = 0;
@@ -162,16 +169,26 @@ public class EventManager : MonoBehaviour
                 BotaoEscolha1.gameObject.SetActive(true);
                 BotaoEscolha2.gameObject.SetActive(true);
                 BotaoContinuar.gameObject.SetActive(false);
+                BotaoFechar.gameObject.SetActive(false);
+                
             }
             else
             {
                 BotaoEscolha1.gameObject.SetActive(false);
                 BotaoEscolha2.gameObject.SetActive(false);
                 BotaoContinuar.gameObject.SetActive(true);
+                BotaoFechar.gameObject.SetActive(true);
+                Bt1Descriaçãopanel.SetActive(false);
+                Bt2Descriaçãopanel.SetActive(false);
             }
 
 
         }
+    }
+    void deastivaumavez()
+    {
+        Bt1Descriaçãopanel.SetActive(false);
+        Bt2Descriaçãopanel.SetActive(false);
     }
     void ProximaMensagem()
     {
@@ -188,27 +205,32 @@ public class EventManager : MonoBehaviour
 
     public void Fechar()
     {
+        deastivaumavez();
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
         Pause.pause.UnPaused();
         Quadro.SetActive(false);
-        
+    
 
     }
     public void Fechar2()
     {
+        deastivaumavez();
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
  
         Pause.pause.UnPaused();
         Quadro.SetActive(false);
         SendMessage("Efeito", eventoAtual.EfeitoBotao1);
+        
     }
     public void Fechar3()
     {
+        deastivaumavez();
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year);
 
         Pause.pause.UnPaused();
         Quadro.SetActive(false);
         SendMessage("Efeito", eventoAtual.EfeitoBotao2);
+        
     }
 
 }
